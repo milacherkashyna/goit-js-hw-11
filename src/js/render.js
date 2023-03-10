@@ -3,7 +3,7 @@ export function renderImages(array) {
   const markup = array
     .map(
       el => `<a href="${el.largeImageURL}"><div class="photo-card">
-  <img src="${el.webformatURL}" alt="${el.tags}" loading="lazy" width = "100" height = "60" />
+  <img src="${el.webformatURL}" alt="${el.tags}" loading="lazy" width = "200" height = "120"/>
   <div class="info">
     <p class="info-item">
       <b>Likes ${el.likes}</b>
